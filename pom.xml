@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.shsxt</groupId>
+  <artifactId>maven-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <dependencies>
+    <dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context</artifactId>
+	    <version>4.3.9.RELEASE</version>
+	</dependency>
+  
+  </dependencies>
+  
+  <modules>
+  	<module>maven-demo01</module>
+  	<module>spring-bean</module>
+  	<module>spring-ioc-01</module>
+  	<module>spring-di-01</module>
+  	<module>maven-demo02</module>
+  	<module>spring-di-02</module>
+  	<module>spring-di-03</module>
+  	<module>spring-aop01</module>
+  	<module>spring-task-01</module>
+  	<module>spring-jdbc-01</module>
+  	<module>spring-tx-01</module>
+  </modules>
+</project>
